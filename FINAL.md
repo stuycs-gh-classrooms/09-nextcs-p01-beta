@@ -1,6 +1,6 @@
 # NeXtCS Project 01
-### Period:  
-### Name0: YOUR NAME HERE
+### Period:  9
+### Name0: Dabir Uddin
 ### Name1: TEAMMATE NAME HERE (delete if working solo)
 #### Selected Game: YOUR GAME HERE
 ---
