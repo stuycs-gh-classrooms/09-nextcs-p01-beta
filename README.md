@@ -17,50 +17,71 @@ This project will be completed in phases. The first phase will be to work on thi
 
 ## Phase 0: Selection, Analysis & Plan
 
-#### Selected Project: CHOOSE WISELY
+#### Selected Project: Space Invaders
 
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
-YOUR ANSWERS HERE
-
+1. Movement of the player ship (left, right, shooting)
+2. Enemies move in a grid formation and descend when hitting the screen edge
+3. Bullets fired by the player destroy enemies
+4. Score tracking and game-over condiitons when enemies reach the player
+   
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
-YOUR ANSWERS HERE
+1. Multiple levels with increasing difficulty
+2. Power-ups (faster shooting, shields)
+3. Sound effects and animations for shooting and destroying enemies
+4. Different enemy types with unique behaviors (faster movement, more health, etc)
+5. Customizable controls/color themes
 
 ### Array Usage
 How will you be using arrays in this project?
 
 1D Array:
-- YOUR ANSER HERE
+- Usage: Store and manage bullets fired by the player
+- Bullets can be represented as individual objects with their own x and y coordinates.
 
 2D Array:
-- YOUR ANSWER HERE
+- Represent the grid of enemies
+- The 2D array mirrors the structure of the game grid, where each cell either contains an enemy or is empty
 
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- Left Arrow: Move ship left
+- Right Arrow: Move ship right
+- Spacebar: Fire bullet
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: N/A
+- Mouse pressed: could be used to start game???
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-CLASS NAME0
+CLASS PLAYER
+- Instance variables:
+  - int x, y; //player position
+  - boolean canShoot; //shooting status
+  - int shootDealy //delay between shots
+- METHODS
+  - void draw() //draw player
+  - void update() //update position and help with shooting
+
+CLASS ENEMY
+- Instance variables:
+  - LIST INSTANCE VARS HERE
+- METHODS
+  - LIST METHODS HERE
+ 
+CLASS BULLET
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
   - LIST METHODS HERE
 
-CLASS NAME1
-- Instance variables:
-  - LIST INSTANCE VARS HERE
-- METHODS
-  - LIST METHODS HERE
